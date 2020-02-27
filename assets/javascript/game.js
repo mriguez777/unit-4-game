@@ -24,7 +24,7 @@ $("#total").text(number);
 var rockValue = [3, 11, 2, 9];
 
 for (var i = 0; i < rockValue.length; i++) {
-    console.log(rockValue[Math.floor(Math.random() * 1)])
+    console.log(rockValue[Math.floor(Math.random() * 1)]);
     var button = $("<img>");
     button.addClass("rock");
     button.attr("src", "https://cdn11.bigcommerce.com/s-hgy8hs1a/images/stencil/2048x2048/products/6962/11370/Fluorite_7121K__03952.1530399608.jpg?c=2");
@@ -53,10 +53,10 @@ $(".rock").on("click", function () {
 });
 
 
-//this is the function I was going to write to calculate all the totals each time a button was pressed. 
-function counting () {
-    var 
-}
+//this is the function I was going to write to calculate all the totals each time a button was pressed. Had to comment this out as it was breaking code. 
+//function counting () {
+    //var 
+//}
 
 //Below is code I started with but ditched because I was not get the functionality I needed. I would still need to add a counting function for the players total, wins and losses. I would also need to include functionality to check if the players number reaches the "magic rock number" and if not count it as a loss. 
 
