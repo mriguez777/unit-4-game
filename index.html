@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Crystal Collector</title>
+
+    <style type="text/css">
+
+        .rock {
+          width: 300px;
+          height: 300px;
+        }
+      </style>
 </head>
 
 <body>
 
     <h1>Crystal Collector</h1>
-
-    <!--creating buttons to act as placholders while i test. These will be rocks later. each set with an ID so I can call to each-->
-    <button id="blue">Blue Rock</button>
-    <button id="green">Green Rock</button>
-    <button id="yellow">Yellow Rock</button>
-    <button id="purple">Purple Rock</button>
+    <p>Click on any button to begin! With the given rocks attempt to macth the "MaGiC RoCk NuMbEr!!!"</p>
 
     <!--collecting the total amount and displaying it-->
     <h2>MaGiC RoCk NuMbEr!!!: <span id="magicRockNum"></span></h2>
+
+    <h4>Wins: <span id="wins"></span></h4>
+    <h4>Losses: <span id="losses"></span></h4>
+
+    <div id="game"></div>
+
+    <!--creating buttons to act as placholders while i test. These will be rocks later. each set with an ID so I can call to each-->
+    <!--I am now changing the id's for the buttons so that I can call them all at once, keep "DRY" in mind and better control the function -->
+    <!--button id="button">Blue Rock</button>
+    <button id="green">Green Rock</button>
+    <button id="yellow">Yellow Rock</button>
+    <button id="purple">Purple Rock</button>-->
+
+
     <!--This is the players current number. -->
-    <h2>Your Current Number: <span id="total"></span></h2>
+    <h2>Your Current Score: <span id="total"></span></h2>
 
 
     <!--adding Jquery library link here -->
