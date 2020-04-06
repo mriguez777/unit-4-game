@@ -1,7 +1,11 @@
 # unit-4-game
 
 Crystal Collector
-Object to reach the "MaGiC RoCk NuMbEr!!!" listed using the four rock images provided, this will generate a random number to reach each time. Each rock will increase by the assigned amount but you cannot see what it is. Keep playing until you match the number or lose. If your number goes over the "MaGiC RoCk NuMbEr!!!" listed, you lose. 
+
+Link: https://mriguez777.github.io/unit-4-game/
+
+Objective:
+to reach the "MaGiC RoCk NuMbEr!!!" listed using the four rock images provided, this will generate a random number to reach each time. Each rock will increase by the assigned amount but you cannot see what it is. Keep playing until you match the number or lose. If your number goes over the "MaGiC RoCk NuMbEr!!!" listed, you lose. 
 
 
 How to play:
